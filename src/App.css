@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.app_p{
+  padding-left: 15px;
+  font-size: 30px;
+  font-weight: bold;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
+  padding: 0px;
+}
+.card_container {
+  width: 50vh;
+  padding: 10px;
+  font-size: 10px;
+}
+h1 {
+  font-size: 15px;
+  margin: 0;
+}
+h2 {
+  font-size: 12px;
+  margin: 0;
+  color: rgb(131, 134, 134);
+}
+img {
+  width: 100%;
+}
+.star {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+.star img {
+  width: 10px;
+  height: 10px;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+}
+.price {
+}
+.bestseller {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 15px;
+  background-color: rgba(206, 206, 33, 0.562);
+  width: 80px;
+  height: 25px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boldFont{
+  font-weight: bold;
 }
